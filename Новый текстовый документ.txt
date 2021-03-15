@@ -1,3 +1,4 @@
-страна
+Cтрана
 Belarus
+город
 Mogilev
