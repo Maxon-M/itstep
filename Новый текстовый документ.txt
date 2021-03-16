@@ -1,3 +1,1 @@
-Belarus
-Mogilev
-street
+![foto](./img/img.jpeg)
