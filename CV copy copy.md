@@ -8,7 +8,7 @@
 Телефон. +375(29)846-70-56(МТС)          
 ```
 
-[<img src="./img/vk1.png"/>](https://vk.com/id238467606)[<img src="./img/Fb.png"/>](https://www.facebook.com/profile.php?id=100064851608284)[<img src="./img/git1.png">](https://github.com/Maxon-M/itstep)
+[<img src="./img/vk1.png"/>](https://vk.com/id238467606)[<img src="./img/fb.png"/>](https://www.facebook.com/profile.php?id=100064851608284)[<img src="./img/git1.png">](https://github.com/Maxon-M/itstep)
 
 *Моей целью является достичь высоких результатов 
 во Frontend разработке а также осваивать в дальнейшем новые направления!
