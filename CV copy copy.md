@@ -23,9 +23,9 @@
 |-|-|:-:|
 |HTML|маленький|10|
 
-#ЯЗЫКИ
+# ЯЗЫКИ
 ___
-#ENGlESH
+# ENGlESH
 надо учить !
 ![Alt Text](http://bit.ly/1drEdWK "Title")
 
