@@ -16,7 +16,7 @@
 
 ```javascript
 const obj={
-     name: Max
+     name: Максим
      age: 27 }
 
 
