@@ -1,4 +1,5 @@
-<center> ![photo](./img/img12.jpg)
+
+  ![photo](./img/img12.jpg)
 
 ##### Максим Дерюченко
 ```
