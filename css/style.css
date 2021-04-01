@@ -1,0 +1,198 @@
+/* Главная,каталог,контакты */
+
+body {
+    background-color: #f8f8f8;
+}
+.menu li{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
+}
+.menu li a{
+    color: #8b00ff;
+}
+/* меняется цвет для меню */
+.menu li:hover,
+.menu li a:hover {
+    color: red;
+}
+
+
+/* apple,acer,монитор. Заголовоки для всех страниц товара */
+
+.apple1,.acer1,.monik1{
+    background-color:#eaeaea;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* для текста краткого описания на всех страницах товара */
+
+.text-apple1,.text-acer1,.text-monik1{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+/* Для текста подробного описания товара на всех страницах товара */
+
+.text-apple2,.text-acer2,.text-monik2{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+/* стиль для первых букв */
+.text-acer1:first-letter{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    color: red;
+}
+.text-apple1:first-letter{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    color: red;
+}
+.text-monik2:first-letter{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    color: red;
+}
+
+
+/* для Характеристик товара apple */
+
+.text-apple3{
+    color: #1D7373;
+    list-style-type: none;
+    list-style-image: url("img16/apple11.png");
+}
+
+/* для характеристик товара acer */
+
+.acer2{
+    color: #1D7373;
+    list-style-type: none;
+    list-style-image: url("img16/acer11.png");
+}
+
+/* для характеристик товара Монитор */
+
+.monik3{
+    color: #1D7373;
+    list-style-type: none;
+    list-style-image: url("img16/monik11.png");
+
+}
+
+/* Контакты стиль для полей ввода */
+
+.style,::placeholder{
+    color: #1d4b8f;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    height: 20px;
+    width: 227px;
+}/* размеры для полей */
+
+
+/* Рамки для всех изображений на страницах с товаром */
+
+.images1{
+    border: 3px solid #94C3FF;
+
+}
+
+.images1:hover{
+    border: 3px solid white;
+}
+
+/* зафиксировал поле что-бы не растягивалось */
+textarea{
+    resize: none;
+}
+/* изменил фон и цвет текста при вводе */
+.style:focus{
+    background-color: #FFF473;
+    color: #000000;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.style1:focus{
+    background-color: #FFF473;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* манёвры с таблицами для товаров */
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #33CCCC;
+    text-align: center;
+
+}
+
+th{
+    border: 1px solid #33CCCC;
+
+}
+tr:hover{
+    background-color: #FFBF40;
+}
+
+td{
+    border-color: #33CCCC;
+}
+
+
+/* Footer */
+
+.footer {
+    position: static;
+    width: 100%;
+    height: 90px;
+    background-color: #D0DAEE;
+}
+
+
+. . .
+
+.footer-text-left {
+    font-size:25px;
+    padding-left:40px;
+    float:left;
+    word-spacing:20px;
+}
+
+a.menu:hover {
+    background-color:yellow;
+}
+
+.center{
+    text-align: center;
+    font-weight: bold;
+}
+
+.center1{
+    text-align: center;
+}
+.center2{
+    text-align: center;
+}
+.center1:first-letter{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    color: red;
+}
+/* header */
+
