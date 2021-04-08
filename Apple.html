@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Apple IPhone SE</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
+<div class="container">
 <header class="header">
-    <a href="index.html">
+    <a href="index.html" class="logo">
         <img src="img/log.png" alt="логотип" width="50">
     </a>
 <ul class="menu" >
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="Каталог.html">Каталог</a></li>
-    <li><a href="Контакты.html">Контакты</a></li>
+    <li><a class="link_menu" href="index.html">Главная</a></li>
+    <li><a class="link_menu" href="Каталог.html">Каталог</a></li>
+    <li><a class="link_menu" href="Контакты.html">Контакты</a></li>
 </ul>
 </header>
 <hr>
@@ -23,7 +25,9 @@
 <h2>Смартфон Apple IPhone SE 128GB/MXD12
     <br>(Белый)</h2>
 
-<a href="./img/apple.jpg" target="_blank"><img class="images1" src="./img/apple.jpg" alt="Photo" width="500"></a>
+<a href="./img/apple.jpg" target="_blank">
+    <img class="images1" src="./img/apple.jpg" alt="Photo" width="500"></a>
+
 
 <h3 class="apple1">Краткое описание:</h3>
 
@@ -33,10 +37,12 @@
 
 <h4 class="text-apple1">Комплектация: Расширенная</h4>
 
-<h3 class="apple1">Технические характеристики:</h3>
+    <input class="button" type="button" value="Купить">
+
+<h3 class="apple_1">Технические характеристики:</h3>
 
 
-<table>
+<table class="table_2">
     <tr>
         <th colspan="2">Процессор</th>
         <th colspan="2">Камера</th>
@@ -72,7 +78,7 @@
 </table>
 
 
-<h3 class="apple1">Характеристики товара:</h3>
+<h3 class="apple_1">Характеристики товара:</h3>
 <ul class="text-apple3">
     <li>16 миллионов цветов</li>
     <li>емкостный,мультитач</li>
@@ -80,7 +86,7 @@
     <li>аккумулятор Li-ion</li>
 </ul>
 
-<h3 class="apple1">Подробное описание:</h3>
+<h3 class="apple__1">Подробное описание:</h3>
 <pre class="text-apple2">
 разрешение экрана 1334x750
 соотношение сторон 16:9
@@ -95,15 +101,16 @@
 
 
 <footer class="footer">
-    <p class="footer-text-left">
-        <a href="index.html" class="menu">Главная</a>
+    <div class="footer-text-left">
+        <a href="index.html" class="menu_1">Главная</a>
 
-        <a href="https://vk.com/id238467606" class="menu">vk.com</a>
+        <a href="https://vk.com/id238467606" class="menu_1">vk.com</a>
 
-        <a href="https://github.com/Maxon-M" class="menu">github.com</a>
-    </p>
+        <a href="https://github.com/Maxon-M" class="menu_1">github.com</a>
+    </div>
     <p class="center">&copy; Все права защищены</p>
 </footer>
+</div>
 
 </body>
 </html>
